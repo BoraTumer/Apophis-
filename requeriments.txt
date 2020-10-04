@@ -1,0 +1,5 @@
+PyQt5
+PyQtChart
+pyqtgraph
+PyQt5-sip
+PyQt5-stubs
