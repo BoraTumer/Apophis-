@@ -44,11 +44,11 @@ class MainWindow(QtWidgets.QWidget):
         """)
         self.logo = QtWidgets.QLabel()
         self.logo.setPixmap(QtGui.QPixmap("logo.jpeg"))
-        self.HBoxlayout1 = QtWidgets.QHBoxLayout() #UstGrafHBox
-        self.HBoxlayout2 = QtWidgets.QHBoxLayout() #AltGrafHBox
-        self.VBoxlayout1 = QtWidgets.QVBoxLayout() #GrafToplamVBox
-        self.HBoxlayout3 = QtWidgets.QVBoxLayout() #PanelHBox
-        self.HBoxlayout4 = QtWidgets.QHBoxLayout() #UIHBox
+        self.HBoxlayout1 = QtWidgets.QHBoxLayout() 
+        self.HBoxlayout2 = QtWidgets.QHBoxLayout() 
+        self.VBoxlayout1 = QtWidgets.QVBoxLayout() 
+        self.HBoxlayout3 = QtWidgets.QVBoxLayout() 
+        self.HBoxlayout4 = QtWidgets.QHBoxLayout() 
         self.HBoxlayout1.addWidget(self.chartview)
         self.HBoxlayout1.addWidget(self.chartview2)
         self.HBoxlayout1.addWidget(self.chartview2)
